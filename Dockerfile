@@ -6,7 +6,7 @@
 ###############
 # Build Stage #
 ###############
-FROM rust:latest AS builder
+FROM rust:1.65 AS builder
 
 WORKDIR /usr/src/
 ENV OPENSSL_DIR=/usr \
